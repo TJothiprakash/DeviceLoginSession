@@ -11,7 +11,7 @@ import java.sql.Connection;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @SpringBootTest
-@TestPropertySource("classpath:application-local.properties")
+@TestPropertySource("classpath:application.properties")
 public class DatabaseConnectionTest {
 
     @Autowired
