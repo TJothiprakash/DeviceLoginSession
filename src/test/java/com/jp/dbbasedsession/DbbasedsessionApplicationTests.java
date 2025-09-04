@@ -5,7 +5,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.TestPropertySource;
 
 @SpringBootTest
-@TestPropertySource("classpath:application-local.properties")
+@TestPropertySource("classpath:application.properties")
 class DbbasedsessionApplicationTests {
 
     @Test
